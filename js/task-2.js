@@ -2,6 +2,8 @@ function makeArray(firstArray, secondArray, maxLength) {
     let joinArray = firstArray.concat(secondArray);
     if (joinArray.length > maxLength) {
         return joinArray.slice(0, maxLength);
+    } else {
+        return joinArray;
     }
 }
 
